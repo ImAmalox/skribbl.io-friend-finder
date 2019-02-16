@@ -1,6 +1,6 @@
 {
     "name": "Skribbl.io Friend Finder",
-    "version": "0.1",
+    "version": "0.1.1",
     "description": "Find your friends in public lobbies!",
     "permissions": ["storage", "tabs"],
     "background": {
