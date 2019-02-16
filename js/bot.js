@@ -36,7 +36,7 @@ function waitForGame() {
 function checkForName() {
     for(var i = 0; i < playerList.childElementCount; ++i) {
         var disName = playerList.childNodes[i].childNodes[1].childNodes[0].innerHTML;
-        if(disName === name) found = true;
+        if(disName.toLowerCase() === name.toLowerCase()) found = true;
     }
     if(!found) {
         setTimeout(function() {window.location.reload();}, reconnectDelay);
